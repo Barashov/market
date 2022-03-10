@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        var theNum = "0";
+        let arr = ["{{ url_for('static', filename='main_img/main1.jpg')}}", "{{ url_for('static', filename='main_img/main2.jpg')}}", "{{ url_for('static', filename='main_img/main3.jpg')}}"];
+      function left()
+      {
+        if(theNum == -1){theNum="2";}
+
+        img.src=arr[theNum];
+        theNum--;
+      }
+      function right() {
+        if(theNum == arr.length){theNum="0";}
+
+      img.src=arr[theNum]
+      theNum++
+      }
+      </script>
+</head>
+<body>
+    <h1 class="style">Market</h1>
+    <h1 class="name"></h1>
+    <hr>
+    <div class="row">
+
+     <form action="">
+        <input class="input" type="button">
+        <input class="input" type="button">
+        <input class="input" type="button">
+        <input class="input" type="button">
+        <input class="input" type="button">
+        <input class="input" style="margin-bottom: 10px;" type="text">
+        </form>
+    </div>
+        <img class="img" type="image/jpg" src="{{ url_for('static', filename='main.jpg')}}" >
+        <nav>
+         <ul>
+            <li><a href="/Goblincore">Goblincore</a></li>
+            <li><a href="/Fairycore">Fairycore</a></li>
+            <li><a href="/Darkacademy">Darkacademy</a></li>
+            <li><a href="/Country">Country</a></li>
+            <li><a href="/Retro">Retro</a></li>
+            <li><a href="/Dullcore">Dullcore</a></li>
+            <li><a href="/Grunge">Grunge</a></li>
+            <li><a href="/E-girle">E-girle</a></li>
+          </ul>
+    </nav>
+    <br>
+    <br>
+    <hr>
+    <h1>Новые коллекции/новинки</h1>
+    <hr>
+    <div class="main_slider">
+        <div id="left" onclick="left()" class="switch"></div>
+        <div  class="slider_img"><img id="img" src="{{ url_for('static', filename='main_img/main1.jpg')}}" alt=""></div>
+        <div id="right" onclick="right()" class="switch"></div>
+    </div>
+   
+</body>
+</html>

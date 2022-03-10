@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(43, 68, 35);
+}
+.img {
+    height: 200px;
+    width: 1550px;
+    margin-top: none;
+}
+.style {
+    text-align: center;
+    
+}
+.input {
+    margin-top: 5x;
+    margin-left: none;
+    border-right: 1px solid;
+    background-color: rgb(22, 53, 28);
+    width: 230px;
+    height: 30px;
+    margin-bottom: none;
+    
+}
+.row form input {
+    margin-top: 10px;
+}
+.in {
+    position: relative;
+}
+.name {
+    position: absolute;
+    margin-left: 700px;
+    top: 200px;
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+nav::before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(43, 68, 35);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul li {
+    margin-left: 50px;
+    float: left;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: azure;
+    
+    font-size: 30px;
+}
+.main_slider div {
+    display: inline-block;
+}
+.switch {
+    height: 600px;
+    width: 90px;
+    background-color: rgb(68, 68, 68);
+    opacity: 0.5;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.switch:hover {
+    opacity: 0.8;
+}
+.slider_img {
+    background-color: black;
+    height: 600px;
+    width: 650px;
+}
+.slider_img img {
+    
+    height: 600px;
+    width: 650px;
+}

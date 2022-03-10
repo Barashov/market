@@ -1,10 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
+@app.route('/')
 @app.route('/main')
 def main():
-    return 'доброе утро даша!'
+    return render_template("main.html")
 
 
-app.run(debug=True, host="0.0.0.0")
+app.run(host="0.0.0.0")
