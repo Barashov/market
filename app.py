@@ -8,4 +8,9 @@ def main():
     return render_template("main.html")
 
 
+@app.route('/<style>')
+def style(style):
+    return render_template("types.html", style=style)
+
+
 app.run(host="0.0.0.0")

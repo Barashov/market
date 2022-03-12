@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(43,68,35);
+}
+.title {
+    text-align: center;
+}
+.main {
+    text-align: center;
+}
+.main div {
+    display: inline-block;
+    background-color: black;
+    height: 650px;
+    width: 500px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(31, 48, 25);
+}
+.img img {
+    margin: 25px;
+    height: 450px;
+    width: 450px;
+}
+.img h1 {
+    color: #120d14;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='types.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Типы одежды</h1>
+    <div class="main">
+        <div class="img" onclick="location.href='{{style}}/sweater'">
+            <img src="" alt="">
+            <h1>Свитеры</h1>
+        </div>
+        <div class="img" onclick="location.href='{{style}}/blouse'">
+            <img src="" alt="">
+            <h1>Кофты</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="img" onclick="location.href='{{style}}/dress'">
+            <img src="" alt="">
+            <h1>Платья</h1>
+        </div>
+        <div class="img" onclick="location.href='{{style}}/skirt'">
+            <img src="" alt="">
+            <h1>Юбки</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
