@@ -18,9 +18,12 @@ def style(style):
 @app.route('/<style>/<type>')
 def type(style, type):
     catalog = data.get_catalog(style, type)
-    
-    return render_template("catalog.html")
+    first_item = catalog[0]
+    second_item = catalog[1]
     
 
-    
-app.run(host="0.0.0.0")
+    return render_template("catalog.html", one=str(first_item[0]), two=str(second_item[0]))
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
