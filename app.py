@@ -22,7 +22,7 @@ def type(style, type):
     first_item = catalog[0]
     second_item = catalog[1]
 
-    return render_template("catalog.html", two="../static/img/1.jpg", name1=first_item[1], name2=second_item[1])
+    return render_template("catalog.html", one=first_item[0], two=second_item[0], name1=first_item[1], name2=second_item[1], price_one=first_item[2], price_two=second_item[2])
 
 
 if __name__ == "__main__":
