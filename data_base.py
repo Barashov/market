@@ -8,8 +8,12 @@ class DATA:
     
     def get_id(self, id):
         self.id = id
+        conn = sqlite3.connect("data_base.db")
+        cursor = conn.cursor()
         cursor.execute("")
         result = cursor.fetchone(1)
+        return result
+        conn.close()
 
     def get_catalog(self, style, type):
             conn = sqlite3.connect("data_base.db")
@@ -21,6 +25,4 @@ class DATA:
             result = cursor.fetchmany(2)
             return result
             conn.close()
-
-
 
