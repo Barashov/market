@@ -1,0 +1,23 @@
+body  {
+    
+    background-color: rgb(22, 53, 28); 
+
+    
+}
+.img {
+    height: 600px;
+    width: 500px;
+}
+h3 {
+    color:aliceblue;
+}
+h1 {
+    margin-left: 20px;
+}
+.but {
+    margin-left: 20px;
+    width: 100px;
+}
+h2 {
+    margin-left: 20px;
+}

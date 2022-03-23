@@ -10,8 +10,8 @@ class DATA:
         self.id = id
         conn = sqlite3.connect("data_base.db")
         cursor = conn.cursor()
-        cursor.execute("")
-        result = cursor.fetchone(1)
+        cursor.execute("SELECT img, name, price, type, gender, origin, size, material FROM item WHERE id=?;", (id))
+        result = cursor.fetchone()
         return result
         conn.close()
 
@@ -25,4 +25,5 @@ class DATA:
             result = cursor.fetchmany(2)
             return result
             conn.close()
-
+a = DATA()
+print(a.get_id("1"))
