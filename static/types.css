@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(43,68,35);
+    background-color: #a4b69e;
 }
 .title {
     text-align: center;
@@ -8,13 +8,14 @@ body {
     text-align: center;
 }
 .main div {
+    border-radius: 10px;
     display: inline-block;
-    background-color: black;
+    
     height: 650px;
     width: 500px;
     margin-left: 1%;
     margin-bottom: 1%;
-    background-color: rgb(31, 48, 25);
+    background-color: #90a689;
 }
 .img img {
     margin: 25px;
@@ -22,6 +23,10 @@ body {
     width: 450px;
 }
 .img h1 {
-    color: #120d14;
+    color: #333333;
     text-align: center;
+}
+.txt {
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

@@ -25,17 +25,10 @@
 <body>
     <h1 class="style">Market</h1>
     <h1 class="name"></h1>
-    <hr>
+    <hr class="hr">
     <div class="row">
 
-     <form action="">
-        <input class="input" type="button">
-        <input class="input" type="button">
-        <input class="input" type="button">
-        <input class="input" type="button">
-        <input class="input" type="button">
-        <input class="input" style="margin-bottom: 10px;" type="text">
-        </form>
+   
     </div>
        
         <nav>
@@ -52,14 +45,15 @@
     </nav>
     <br>
     <br>
-    <hr>
-    <h1>Новые коллекции/новинки</h1>
-    <hr>
+    <hr class="hr">
+    <h1 class="style">Новые коллекции/новинки</h1>
+    <hr class="hr">
     <div class="main_slider">
         <div id="left" onclick="left()" class="switch"></div>
         <div  class="slider_img"><img id="img" src="{{ url_for('static', filename='main_img/main1.jpg')}}" alt=""></div>
         <div id="right" onclick="right()" class="switch"></div>
     </div>
+    
    
 </body>
 </html>
