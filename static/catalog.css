@@ -1,20 +1,21 @@
 body {
-    background-color: rgb(43, 68, 35);;
+    background-color: #a4b69e;
 }
 .main {
     text-align: center;
 }
 .main div {
     display: inline-block;
-    background-color: rgb(31, 48, 25);
-    height: 550px;
-    width: 400px;
+    background-color: #90a689;
+    height: 750px;
+    width: 600px;
     margin: 5px;
     border-radius: 10px;
 }
 .img {
-    width: 350px;
-    height: 400px;
+    
+    width: 450px;
+    height: 500px;
     margin: 10px;
     margin-bottom: 5px;
 }
@@ -22,5 +23,5 @@ body {
     margin: 2px;
 }
 .main div {
-    color:rgb(174, 224, 218);
+    color: #333333;
 }

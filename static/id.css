@@ -1,6 +1,6 @@
 body  {
     
-    background-color: rgb(22, 53, 28); 
+    background-color: #A4B69E; 
 
     
 }
@@ -9,15 +9,14 @@ body  {
     width: 500px;
 }
 h3 {
-    color:aliceblue;
+    color: #333333;
 }
 h1 {
     margin-left: 20px;
 }
-.but {
-    margin-left: 20px;
-    width: 100px;
-}
 h2 {
     margin-left: 20px;
+}
+ul li {
+    color: #333333;
 }
