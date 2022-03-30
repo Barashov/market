@@ -25,5 +25,5 @@ class DATA:
             result = cursor.fetchmany(2)
             return result
             conn.close()
-a = DATA()
-print(a.get_id("13"))
+
+
